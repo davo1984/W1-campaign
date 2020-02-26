@@ -1,14 +1,16 @@
 /*  CSS */
 
-html {
+body {
     background-image: url("../img/main-canidate.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-
-  /* Make the carousel image fully responsive */
-  .carousel-inner img { 
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      width: 40%;
-      height: 20%;
-  }
+/* Make the carousel image fully responsive */
+.carousel-inner img { 
+    /*margin: 5%;*/
+    width: 200px;
+    height: 200px;
+}
