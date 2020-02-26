@@ -1,2 +1,14 @@
 /*  CSS */
 
+html {
+    background-image: url("../img/main-canidate.png");
+}
+
+
+  /* Make the carousel image fully responsive */
+  .carousel-inner img { 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      width: 40%;
+      height: 20%;
+  }
