@@ -8,9 +8,9 @@ body {
     background-position: center;
 }
 
-/* Make the carousel image fully responsive */
+/* Make the carousel image fully responsive
 .carousel-inner img { 
-    /*margin: 5%;*/
+    margin: 5%;
     width: 200px;
     height: 200px;
-}
+} */
