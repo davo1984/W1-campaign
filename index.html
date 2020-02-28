@@ -3,46 +3,269 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bill 4 President</title>
+    <title>Bill for Emperor</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/theme_1582733517967_fresca.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 jumbotron">
-                <h3>Media</h3>
-            </div>
-            <div class="col-sm-6"></div>
-            <div class="col-sm-3 jumbotron">
-                <h3>Volunteer</h3>
+    <div class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <!--area-1-->
+                    <!--CAROUSEL START-->
+                    <div id="carousel" class="carousel slide m-2" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/pic01.jpeg" class="rounded" alt="Bill & Wife" width="100" height="100">
+                                <div class="carousel-caption">
+                                    <p>Used without permission</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pic02.jpeg" class="rounded" alt="Bill & Mistress" width="100"
+                                    height="100">
+                                <div class="carousel-caption">
+                                    <p>Used without permission</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pic02.jpg" class="rounded" alt="Bill & Mistress" width="100"
+                                    height="100">
+                                <div class="carousel-caption">
+                                    <p>Used without permission</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pic03.jpg" class="rounded" alt="Taking bribes to serve YOU better!"
+                                    width="100" height="100">
+                                <div class="carousel-caption">
+                                    <p>Used without permission</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/pic04.jpg" class="rounded" alt="Bill & Mistress" width="100"
+                                    height="100">
+                                <div class="carousel-caption">
+                                    <p>Used without permission</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!--CAROUSEL END-->
+                </div>
+
+                <!-- donate card -->
+                <div class="col-sm-4">
+                    <div id="#donCard" class="collapse">
+
+                        <!--Card-->
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="card bg-light" style="width: 13rem;">
+                                <img src="./img/cashCase.jpeg" class="card-img-top" alt="Cash">
+
+
+                                <div class="card-body col-sm-12 p-2">
+                                    <h5 class="card-title"><i class='fas fa-money-bill-wave'
+                                            style='font-size:24px;color:darkgreen'></i>Donate</h5>
+                                    <p class="card-text">Send unmarked, non-sequential bills to:
+                                        <dl>
+                                            <dt>Box Holder</dt>
+                                            <dd>PO BOX 1483</dd>
+                                            <dd>Lexington, KY 40511</dd>
+                                        </dl>
+                                    </p>
+
+                                    <a href="http://paypal.com" class="btn btn-primary">Give Generously</a>
+                                    <p class="font-weight-lighter"><br>Bill's Ferrari Fund:</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:30%">30%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="area-2" class="col-sm-4 align-middle">
+                    <div class="jumbotron p-2 m-2">
+                        <!--area-2-->
+                        <h5>Take Action</h5>
+
+                        <a href="volunteer.html" data-toggle="tooltip" title="We need your time more than you do!">
+                            <span class="badge badge-info px-3 py-3 mx-5 my-1">Volunteer</span></a><br>
+                        <div>
+                            <button type="button" class="btn btn-info px-3 py-2 mx-5 my-1" data-toggle="collapse"
+                                title="You don't need your money at all!" data-target="donCard" data-placement="left">
+                                <span class="badge badge-info">Donate</span><br>
+                        </div>
+                        <div>
+                            <a href="https://maps.google.com" data-toggle="tooltip"
+                                title="When we win we'll do away with this nonsense so vote November 3.  It may be your last time!">
+                                <span class="badge badge-info px-3 py-2 mx-5 my-1">Vote!</span></a>
+                        </div>
+
+
+                    </div>
+                    </button>
+
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 jumbotron">
-                <h4>Issues</h4>
-            </div>
-            <div class="col-sm-6"></div>
-            <div class="col-sm-3 jumbotron">
 
-                <h4><i class='fas fa-money-bill-wave' style='font-size:48px;color:darkgreen'></i>Donate</h4>
+    <!-- forced below the fold-->
+    <div class="container">
+        <div class="row">
+
+            <!-- place holding table -->
+            <div class="table-responsive">
+                <table class="tabled">
+                    <caption> </caption>
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                            </tr>
+                        </thead>
+                    </tbody>
             </div>
         </div>
-    </div>
-    </div>
+        <div class="container">
+            <div class="">
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+                        <!-- table -->
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <caption>Comparison of Candidates</caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Bill</th>
+                                        <th scope="col">Jerk #1</th>
+                                        <th scope="col">What's his name?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Freedom</th>
+                                        <td>Freedom thought list</td>
+                                        <td>Dangerous open mind</td>
+                                        <td>Dangerous closed mind</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Guns</th>
+                                        <td>I shot someone today!</td>
+                                        <td>Dangerous Peacenick</td>
+                                        <td>Dangerous Warmonger</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Dead Bird</th>
+                                        <td>Delicious!</td>
+                                        <td>Grossed out</td>
+                                        <td>Weak stomach</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="fixed-bottom pb-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--area-3-->
+                    <div id="area-4" class="col-sm-4">
+                        <div class="jumbotron p-2 m-1">
+                            <h4>Issues</h4>
+                            <div data-toggle="popover" title="I Support Freedom"
+                                data-content="I support your total freedom to think as you please.  Once elected I will issue a list of opinions everyone may choose from.">
+                                <span class="badge badge-info px-3 py-3 mx-5">Freedom</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 align-middle">
+                        <!--area-4-->
+                        <div class="container">
+                            <h4>Bill's Story</h4>
+
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item rounded"
+                                    src="https://youtube.com/embed/LT3QjMCLqwc"></iframe>
+                                -->
+                                <!--   <div class="embed-responsive embed-responsive-16by9"> 
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
 </body>
 
 </html>

@@ -1,14 +1,39 @@
 /*  CSS */
 
-html {
+body {
     background-image: url("../img/main-canidate.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+}
+/***************
+html {
+  font-size: 1rem;
 }
 
-
-  /* Make the carousel image fully responsive */
-  .carousel-inner img { 
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      width: 40%;
-      height: 20%;
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
   }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+} ******************/
+
+/* Make the carousel image fully responsive */
+.carousel-inner img { 
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+}
