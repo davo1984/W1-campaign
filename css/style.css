@@ -8,7 +8,7 @@ body {
     background-position: center;
     font-size: 1rem;
 }
-
+/***************
 html {
   font-size: 1rem;
 }
@@ -29,7 +29,7 @@ html {
   html {
     font-size: 1.6rem;
   }
-}
+} ******************/
 
 /* Make the carousel image fully responsive */
 .carousel-inner img { 
