@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Emperor Bill</title>
+    <title>Bill for Emperor</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="fixed-top">
+    <div class="">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4">
@@ -25,9 +25,9 @@
 
                         <!-- Indicators -->
                         <ul class="carousel-indicators">
-                            <li data-target="#demo" data-slide-to="0" class="active"></li>
-                            <li data-target="#demo" data-slide-to="1"></li>
-                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
                         </ul>
 
                         <!-- The slideshow -->
@@ -69,19 +69,20 @@
                         </div>
 
                         <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
                         </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>
                     <!--CAROUSEL END-->
                 </div>
-                <div class="col-sm-4 middleTop">
-                    <div id="don" class="collapse">
 
-                        <!-----------------CARD-------------------------->
+                <!-- donate card -->
+                <div class="col-sm-4">
+                    <div id="#donCard" class="collapse">
+
                         <!--Card-->
                         <div class="row">
                             <div class="col-sm-3"></div>
@@ -111,6 +112,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div id="area-2" class="col-sm-4 align-middle">
                     <div class="jumbotron p-2 m-2">
                         <!--area-2-->
@@ -120,7 +122,7 @@
                             <span class="badge badge-info px-3 py-3 mx-5 my-1">Volunteer</span></a><br>
                         <div>
                             <button type="button" class="btn btn-info px-3 py-2 mx-5 my-1" data-toggle="collapse"
-                                title="You don't need your money at all!" data-target="#don" data-placement="left">
+                                title="You don't need your money at all!" data-target="donCard" data-placement="left">
                                 <span class="badge badge-info">Donate</span><br>
                         </div>
                         <div>
@@ -132,104 +134,138 @@
 
                     </div>
                     </button>
-                    <!-------------------
-                        <i class='fas fa-money-bill-wave' style='font-size:12px;color:darkgreen'></i>Donate
-                        <p class="font-weight-lighter">Bill's Ferrari Fund</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width:30%">30%</div>
-                        </div>
-                        
-                    </div>
 
-                    <!--  <h3><span class="badge badge-success">Volunteer</span></h3>  -->
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row col-sm-12"></div> <!-- space in the middle -->
+    <!-- forced below the fold-->
+    <div class="container">
+        <div class="row">
 
-    <div class="fixed-bottom pb-1">
-        <div class="container-fluid">
-            <div class="row">
-                <!--area-3-->
-                <div id="area-4" class="col-sm-4">
-                    <div class="jumbotron p-2 m-1">
-                        <h4>Issues</h4>
-                        <div data-toggle="popover" title="I Support Freedom"
-                            data-content="I support your total freedom to think as you please.  Once elected I will issue a list of opinions everyone may choose from.">
-                            <span class="badge badge-info px-3 py-3 mx-5">Freedom</span>
+            <!-- place holding table -->
+            <div class="table-responsive">
+                <table class="tabled">
+                    <caption> </caption>
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                                <th scope="col"> </th>
+                            </tr>
+                        </thead>
+                    </tbody>
+            </div>
+        </div>
+        <div class="container">
+            <div class="">
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <!-- table -->
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <caption>Comparison of Candidates</caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Bill</th>
+                                        <th scope="col">Jerk #1</th>
+                                        <th scope="col">What's his name?</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Freedom</th>
+                                        <td>Freedom thought list</td>
+                                        <td>Dangerous open mind</td>
+                                        <td>Dangerous closed mind</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Guns</th>
+                                        <td>I shot someone today!</td>
+                                        <td>Dangerous Peacenick</td>
+                                        <td>Dangerous Warmonger</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Dead Bird</th>
+                                        <td>Delicious!</td>
+                                        <td>Grossed out</td>
+                                        <td>Weak stomach</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 align-middle">
-                    <!--area-4-->
-                    <div class="container">
-                        <h4>Bill's Story</h4>
+            </div>
+        </div>
 
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item rounded"
-                                src="https://youtube.com/embed/LT3QjMCLqwc"></iframe>
-                            
-                            <!--   <div class="embed-responsive embed-responsive-16by9"> 
+        <div class="fixed-bottom pb-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--area-3-->
+                    <div id="area-4" class="col-sm-4">
+                        <div class="jumbotron p-2 m-1">
+                            <h4>Issues</h4>
+                            <div data-toggle="popover" title="I Support Freedom"
+                                data-content="I support your total freedom to think as you please.  Once elected I will issue a list of opinions everyone may choose from.">
+                                <span class="badge badge-info px-3 py-3 mx-5">Freedom</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 align-middle">
+                        <!--area-4-->
+                        <div class="container">
+                            <h4>Bill's Story</h4>
+
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item rounded"
+                                    src="https://youtube.com/embed/LT3QjMCLqwc"></iframe>
+                                -->
+                                <!--   <div class="embed-responsive embed-responsive-16by9"> 
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                            -->
+                    -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-
-    <div class="container-fluid">
-<div class="row min-height=500px"></div>
-<div class="row"></div>
-<div class="row"></div>
 
 
-    <div class="table-responsive issueTable">
-        <table class="table table-striped">
-            <caption>List of users</caption>
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Bill</th>
-                    <th scope="col">Jerk #1</th>
-                    <th scope="col">What's his name?</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Freedom</th>
-                    <td>Freedom thought list</td>
-                    <td>Dangerous open mind</td>
-                    <td>Dangerous closed mind</td>
-                </tr>
-                <tr>
-                    <th scope="row">Guns</th>
-                    <td>I shot someone today!</td>
-                    <td>Dangerous Peacenick</td>
-                    <td>Dangerous Warmonger</td>
-                </tr>
-                <tr>
-                    <th scope="row">Dead Bird</th>
-                    <td>Delicious!</td>
-                    <td>Grossed out</td>
-                    <td>Weak stomach</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    </div>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
+</body>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="../js/main.js" </body>
-
-</html >
+</html>
